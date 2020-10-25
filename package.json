@@ -1,16 +1,38 @@
 {
 
   "name": "math-handout-generator-v2",
+
   "version": "1.0.0",
+
   "description": "",
-  "main": "script.js",
+
+  "main": "index.js",
+
   "scripts": {
+
+    "build": "webpack",
+
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
+
   "author": "",
+
   "license": "ISC",
+
   "dependencies": {
-    "jspdf": "^2.1.1"
+
+    "jspdf": "^2.1.1",
+
+    "webpack": "^5.2.0"
+
+  },
+
+  "devDependencies": {
+
+    "webpack-cli": "^4.1.0"
+
   }
 
 }
+
