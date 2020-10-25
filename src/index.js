@@ -1,7 +1,6 @@
-import { jsPDF } from "../node_modules/jspdf/dist/jspdf.es.js"
-
+// import { jsPDF } from "../node_modules/jspdf/dist/jspdf.es.js"
 // import { jsPDF } from "jspdf";
-
+import { jsPDF } from './jspdf.es.js'
 
 
 // Default export is a4 paper, portrait, using millimeters for units
